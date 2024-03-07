@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+   line-height: 10vh;
+   background-color:#EED3D9;
+}
+.container{
+    display: flex;
+}
+.user1{
+    background-color: #F5E8DD;
+    width: 50vw;
+    height: 90vh;
+    position: relative;
+
+}
+.user2{
+    background-color:#B5C0D0;
+    width: 50vw;
+    height: 90vh;
+    position: relative;
+
+}
+.pack1{
+margin-left: 30px;
+
+
+}
+.pack3{
+    margin-left: -60px;
+}
+.user1 img{
+    position: absolute;
+     
+    margin-top: 65vh;
+     
+
+    
+}
+.user2 img{
+    position: absolute;
+     
+    margin-top: 65vh;
+}
+.scorecard1{
+    height: 150px;
+    width: 150px;
+    background-color:white;
+    border-radius: 25%;
+    margin-left: 38vw;
+    margin-top: 70vh;
+}
+.scorecard2{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 25%;
+    margin-left: 2vw;
+    margin-top: 70vh;
+
+}
+#user1score{
+    font-size: 125px;
+}
+#user2score{
+    font-size: 125px;
+}
+@media (max-width:500px ){
+    img{
+        width: 60px;
+    }
+    .scorecard1{
+width: 70px;
+height: 70px;
+margin-top: 80vh;
+margin-left: 27vw;
+    }
+    .scorecard2{
+        width: 70px;
+        height: 70px;
+        margin-top: 80vh;
+            }
+            #user1score{
+                font-size: 55px;
+            }
+            #user2score{
+                font-size: 55px;
+            }
+
+}
+
+
+
+
+
+
